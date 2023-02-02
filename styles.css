@@ -1,0 +1,265 @@
+body{
+    background-color: #232f5e;
+}
+.box0{
+    position: absolute;
+    width: 800px;
+    height: 158px;
+    left: 240px;
+    top: 62px;
+
+    border: 2px solid #FFFFFF;
+    border-radius: 13px;
+}
+.box1{
+    position:relative;
+    bottom:30px;
+    left:20px;
+    width:25%;
+}
+.box1_p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+}
+
+.box2{
+    width:25%;
+    position:relative;
+    left:650px;
+    bottom:210px;
+}
+.box2_p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+}
+.player_score{
+    position:relative;
+    bottom:85px;
+    left:40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 68px;
+    color: #252525;
+}
+
+.game_area{
+    position:absolute;
+    height:40%;
+    width:45%;
+    top:250px;
+    left:500px;
+}
+.scissor{
+    border-radius: 50%;
+    border: 16px solid #CC00FF;
+    filter: drop-shadow(-1px 1px 11px rgba(0, 0, 0, 0.35));
+}
+.img1{
+    width:60px;
+    height: 60px;
+}
+.img2{
+    width:60px;
+    height: 60px;
+}
+.img3{
+    position:relative;
+    width:60px;
+    height: 60px;
+}
+
+.stone{
+    border-radius: 50%;
+    border: 16px solid #FFD600;
+    filter: drop-shadow(-1px 1px 11px rgba(0, 0, 0, 0.35))
+}
+
+.paper{
+    position:relative;
+    border-radius: 50%;
+    border: 16px solid #FF4370;
+    filter: drop-shadow(-1px 1px 11px rgba(0, 0, 0, 0.35));
+    top:120px;
+    left:95px;
+}
+
+
+.line2{
+    position:relative;
+    top:100px;
+    right:340px;
+    transform: rotate(60.58deg);
+}
+.line3{
+    position:relative;
+    top:100px;
+    right:340px;
+    transform: rotate(120deg);
+}
+
+.rules{
+    position: absolute;
+    width : 25%;
+    height:45%;
+    bottom:50px;
+    left: 1050px;
+}
+.rules_close_button{
+    position:relative;
+    top:10px;
+    left:300px;
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #FF0000;
+    border: 5px solid #465BA7;
+}
+.rule_button{
+    position:absolute;
+    right:90px;
+    bottom:90px;
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+ul {
+    list-style: square;
+    color: yellow;
+}
+.li{
+    color: #FFFFFF;
+}
+
+.vis{
+    visibility: hidden;
+}
+
+.rules-show {
+    visibility: visible;
+}
+.invisible{
+    display: none;
+}
+
+.result{
+    position:absolute;
+    height:40%;
+    width:45%;
+    top:250px;
+    left:350px;
+}
+
+
+.result_pick_person{
+    position: relative;
+    top:80px;
+    left:40px;
+    border-radius: 50%;
+    border: 16px solid #CC00FF;
+    filter: drop-shadow(-1px 1px 11px rgba(0, 0, 0, 0.35));
+}
+
+.img_person_result{
+    width:60px;
+    height: 60px;
+}
+
+.result_pick_pc{
+    position: relative;
+    bottom:100px;
+    left:450px;
+    border-radius: 50%;
+    border: 16px solid #FFD600;
+    filter: drop-shadow(-1px 1px 11px rgba(0, 0, 0, 0.35))
+}
+.img_pc_result{
+    width:60px;
+    height: 60px;
+}
+
+.result_text_1{
+    position: relative;
+    color: #FFFFFF;
+    width: 25%;
+    height: 25%;
+    left:220px;
+}
+
+.text1{
+    position: relative;
+    top:75px;
+    left:40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+.text2{
+    position: relative;
+    bottom:230px;
+    left:450px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+.text3{
+    position: relative;
+    bottom:100px;
+    left:250px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+
+    color: #6B6B6B;
+    background: #FFFFFF;
+    border-radius: 9px;
+
+}
+.try{
+position: absolute;
+width: 99px;
+height: 14px;
+left: 599px;
+top: 695px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 18px;
+letter-spacing: 0.1em;
+
+color: #FAF2F2;
+}
